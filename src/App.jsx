@@ -16,7 +16,6 @@ function App() {
 
   // console.log(groupId);
   // console.log(img_type);
-
   return (
     <>
       <ShowFullImage/>

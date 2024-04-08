@@ -6,11 +6,14 @@ function ShowProfile() {
     <nav className='nav-bar'>
         <div className="logo-box">
             <div className='icon'>
-                <img src="Junimo.png" alt="Junimo" />
+                <img src="Cat.png" alt="Home-remider" />
             </div>
-            <h2>Junimo collection</h2>
+            <div className="title-logo">
+              <h2>HOME</h2>
+              <h3>REMINDER</h3>
+            </div>
         </div>
-        <h1>Photos album</h1>
+        {/* <h1>Photos album</h1> */}
     </nav>
     </>
   )

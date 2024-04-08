@@ -50,7 +50,6 @@ function showAllImages(groupId, img_col) {
           });
       } else {
         alert("ไม่พบข้อมูลที่บันทึกไว้");
-        // return null;
       }
     });
 }
@@ -84,14 +83,6 @@ function showImage(img_urls) {
 
     display_img.appendChild(item);
   }
-  // <div className="item" onClick={handleClick}>
-  //   <div className="img-box">
-  //     <img src="Junimo.png" alt="Junimo.png" />
-  //   </div>
-  //   <div className="file-name">
-  //     <p>Junimo.png</p>
-  //   </div>
-  // </div>;
 }
 function handleClick(event) {
   const target = event.currentTarget;
